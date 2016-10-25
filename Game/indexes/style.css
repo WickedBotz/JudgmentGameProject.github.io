@@ -1,0 +1,115 @@
+/* GENERALIZAÇÕES */
+
+.to-left {
+  float: left !important;
+}
+
+.to-right {
+  float: right !important;
+}
+
+.content-right {
+  text-align: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.logo {
+  margin-right: 15px;
+  font-size: 150%;
+  font-weight: bold;
+  list-style-type: none;
+  padding:10px 16px;
+  float: left;
+}
+
+/* FIM GENERALIZAÇÕES */
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, "Verdana", sans-serif;
+}
+
+nav, footer {
+  width: 100%;
+  background-color: #227;
+  margin: 0;
+}
+
+nav {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+div.foot-100 {
+  width: 100%;
+  text-align: center;
+}
+
+div.foot-content {
+  width: 100%;
+}
+
+footer {
+  padding: 18px 0 18px 0;
+  margin-top: 50px;
+  color: #fff;
+  bottom: 0;
+  font-size: 80%;
+  position: fixed;
+}
+
+span {
+  display: block;
+}
+
+main {
+  padding: 60px;
+  margin-top: 30px;
+  width: 80%;
+}
+
+article {
+  width: 100%;
+}
+
+ul.nav {
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+li.nav {
+  font-weight: bold;
+  list-style-type: none;
+  padding:16px 16px;
+  float: left;
+}
+
+li.nav, a.nav {
+  transition: all .2s ease-in;
+}
+
+a.nav {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+li a {
+  text-align: center;
+}
+
+li.nav a.nav:hover, li.logo a.nav:hover {
+  color: #111;
+  transition: all .2s ease-in;
+  text-shadow: 0 0 6px #fff
+}
